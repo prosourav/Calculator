@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 5%;
+    width: 35em;
+}
+.screen{
+    background: black;
+    width: 92%;
+    color: cornsilk;
+    font-size: 60px;
+    padding: 20px;
+
+}
+.button{
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    flex: 23%;
+    font-size: 4em;
+    border: 1px solid black;
+}
+.btn{
+    background: darkgoldenrod;
+    color: white;
+}
+.btn-red{
+    background-color: red;
+}
+.btn-green{
+    background-color: chartreuse;
+}
